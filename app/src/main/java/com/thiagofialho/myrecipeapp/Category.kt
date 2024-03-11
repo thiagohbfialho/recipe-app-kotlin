@@ -2,7 +2,7 @@ package com.thiagofialho.myrecipeapp
 
 data class Category(val idCategory: String,
     val strCategory: String,
-    val strThumb: String,
+    val strCategoryThumb: String,
     val strCategoryDescription: String
     )
 
