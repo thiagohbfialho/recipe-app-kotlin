@@ -27,7 +27,7 @@ class MainViewModel : ViewModel()  {
             }catch (e:Exception){
                 _categoriesState.value = _categoriesState.value.copy(
                     loading = false,
-                    error = "Error fetching Categories TEST ${e.message}"
+                    error = "Error fetching Categories TEST + push ${e.message}"
                 )
             }
         }
